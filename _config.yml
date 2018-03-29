@@ -1,0 +1,41 @@
+markdown: kramdown
+highlighter: rouge
+
+permalink: /posts/:title.html
+excerpt_separator: "<!-- TOC -->"
+#excerpt_separator: "<!-- more -->"
+
+github: hxhlwf
+author: "hxhlwf"
+email: hxhlwf#foxmail.com
+name: "hxhlwf-github博客"
+url: http://hxhlwf.github.io
+domain: hxhlwf.github.io
+all_categories: [
+["links", "常用链接", "/posts/links.html"],
+["knowledge", "基础知识", "/posts/knowledge.html"],
+["platform", "常用平台", "/posts/platform.html"],
+["ml", "机器学习","/posts/ml.html"], 
+["dl", "深度学习","/posts/dl.html"],
+["rl", "强化学习","/posts/rl.html"],
+["cv", "图像处理","/posts/cv.html"], 
+["nlp", "自然语言处理","/posts/nlp.html"], 
+["audio", "语音处理","/posts/audio.html"], 
+["video", "视频处理","/posts/video.html"], 
+["other", "杂记","/posts/other.html"],
+["about", "关于","/about.html"]
+]
+
+paginate: 10
+paginate_path: "posts/page:num"
+timezone: China/Beijing
+
+collections:
+  docs:
+    output: true
+
+gems:
+ - jekyll-paginate
+ - jekyll-toc
+
+

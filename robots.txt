@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://hxhlwf.github.io/atom.xml
